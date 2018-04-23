@@ -1,0 +1,17 @@
+@model List<Sample.Models.Person>
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "grid";
+    settings.KeyFieldName = "PersonID";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewEditingPartial" };
+
+    settings.CommandColumn.Visible = true;
+    settings.CommandColumn.ShowSelectCheckbox = true;
+    settings.ClientSideEvents.SelectionChanged = "OnSelectionChanged";
+    settings.ClientSideEvents.BeginCallback = "OnBeginCallback";
+
+    settings.SettingsPager.PageSize = 5;
+    
+    settings.Columns.Add("FirstName");
+    settings.Columns.Add("MiddleName");
+    settings.Columns.Add("LastName");
+}).Bind(Model).GetHtml()
