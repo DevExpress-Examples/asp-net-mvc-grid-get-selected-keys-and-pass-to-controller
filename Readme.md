@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/Sample/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Sample/Controllers/HomeController.vb))
+* [Person.cs](./CS/Sample/Models/Person.cs) (VB: [PersonsList.vb](./VB/Sample/Models/PersonsList.vb))
+* [PersonsList.cs](./CS/Sample/Models/PersonsList.cs) (VB: [PersonsList.vb](./VB/Sample/Models/PersonsList.vb))
+* [GridViewEditingPartial.cshtml](./CS/Sample/Views/Home/GridViewEditingPartial.cshtml)
+* [Index.cshtml](./CS/Sample/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # How to get all GridView selected keys and pass them to a Controller
 
 
