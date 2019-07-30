@@ -9,7 +9,7 @@
 <!-- default file list end -->
 # How to get all GridView selected keys and pass them to a Controller
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e20065)**
+**[[Run Online]](https://codecentral.devexpress.com/e20065/)**
 <!-- run online end -->
 
 
