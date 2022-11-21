@@ -4,7 +4,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e20065/)**
 <!-- run online end -->
 
-This examle demonstrates how to get all GridView selected keys and pass them to a controller.
+This example demonstrates how to get the key values of all GridView selected rows and pass them to a controller.
 
 ![MVC GridView - PassSelectedKeys](images/PassSelectedKeys.png)
 
@@ -65,7 +65,7 @@ Use one of the following approaches to pass the values to the controller:
   }
   ```
 
-* On a button's `Click` event, write all selected values to a hidden input element. Get these values on any controller post action.
+* In a button's `Click` event, write all selected values to a hidden input element, and get these values from any controller's post-action.
 
   ```xml
   // Index.cshtml
