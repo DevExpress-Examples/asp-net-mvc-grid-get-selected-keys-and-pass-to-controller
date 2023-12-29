@@ -13,9 +13,6 @@
 * [Index.cshtml](./CS/Sample/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # How to get all GridView selected keys and pass them to a Controller
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128551571/)**
-<!-- run online end -->
 
 
 <p>This example illustrates how to collect all selected values (for example, keys) on the client side via the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_GetSelectedFieldValuestopic"><u>ASPxClientGridView.GetSelectedFieldValues</u></a> method and pass them to:<br />
