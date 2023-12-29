@@ -5,9 +5,6 @@
 <!-- default badges end -->
 # GridView for ASP.NET MVC - How to Get All GridView Selected Keys and Pass Them to a Controller
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128551571/)**
-<!-- run online end -->
 
 This example demonstrates how to get the key values of all GridView selected rows and pass them to a controller.
 
